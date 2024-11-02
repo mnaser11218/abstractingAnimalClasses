@@ -2,7 +2,7 @@ package org.example;
 
 public class Cat extends Animal {
     public Cat() {
-        super("meow");
+        super("meow", "cat food");
     }
 
 }

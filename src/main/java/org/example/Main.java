@@ -8,5 +8,14 @@ public class Main {
         Animal cat = new Cat();
         dog.speak();
         cat.speak();
+        printSpeech(dog, cat);
+
     }
+    public static void printSpeech(Animal... animals){
+        for(Animal ele: animals){
+        ele.speak();
+        ele.eatFood();
+        }
+    }
+
 }

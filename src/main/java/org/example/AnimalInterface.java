@@ -6,5 +6,9 @@ public interface AnimalInterface {
     }
 
     String getSound();
+    default void eatFood(){
+        System.out.println("currently eating: "  + getFood());
+    }
+    String getFood();
 
 }
