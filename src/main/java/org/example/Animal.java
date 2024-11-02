@@ -1,13 +1,14 @@
 package org.example;
 
-public class Animal {
+public abstract class Animal implements AnimalInterface {
     private String sound;
 
     public Animal(String sound) {
         this.sound = sound;
     }
-    public void speak(){
-        System.out.println(sound);
-    }
+
+public String getSound(){
+        return sound;
+}
 
 }
