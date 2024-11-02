@@ -14,6 +14,7 @@ public class Main {
     public static void printSpeech(Animal... animals){
         for(Animal ele: animals){
         ele.speak();
+        ele.eatFood();
         }
     }
 
